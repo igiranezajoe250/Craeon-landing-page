@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* Add your custom variables here */
+}
+
+body {
+    /* Add your base body styles here */
+}
