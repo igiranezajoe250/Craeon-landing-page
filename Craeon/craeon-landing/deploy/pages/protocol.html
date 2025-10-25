@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craeon - Investment Protocol</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="../index.html" class="logo">CRAEON</a>
+            <a href="../index.html" class="back-button">← Back</a>
+        </nav>
+    </header>
+
+    <!-- Secondary Navigation -->
+    <nav class="secondary-nav">
+        <div class="container">
+            <ul class="secondary-menu">
+                <li><a href="#team" id="teamLink">TEAM</a></li>
+                <li><a href="#protocol" id="protocolLink" class="active">PROTOCOL</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-heading">The Team Behind the Vision</h1>
+            <p class="hero-subtext">Building middle-class economic infrastructure through strategic investments in operational efficiency and capital market development.</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content" id="protocolContent">
+        <!-- Investment Philosophy -->
+        <section class="philosophy-section">
+            <div class="container">
+                <div class="content-grid">
+                    <div class="text-content">
+                        <h2>Our Investment Philosophy</h2>
+                        <p>At Craeon, we believe sustainable economic growth emerges from building robust middle-class infrastructure in emerging markets. Our approach centers on identifying businesses that reduce operational costs, improve efficiency, and create accessible pathways to economic participation.</p>
+                        <p>We focus on the structural elements that enable economic mobility: operational efficiency, trade infrastructure, and capital market development that mobilizes local savings into productive investment.</p>
+                    </div>
+                    <div class="stats-preview">
+                        <div class="stat-item">
+                            <span class="stat-number">180M</span>
+                            <span class="stat-label">Population</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">32M</span>
+                            <span class="stat-label">Middle Class</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">$120</span>
+                            <span class="stat-label">Avg Income</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Investment Pillars -->
+        <section class="pillars-section">
+            <div class="container">
+                <h2>Investment Framework</h2>
+                <div class="pillars-grid">
+                    <div class="pillar-card">
+                        <div class="pillar-number">01</div>
+                        <h3>Operational Efficiency</h3>
+                        <p>Reducing costs to expand middle-class consumption and drive volume growth.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <div class="pillar-number">02</div>
+                        <h3>Trade Infrastructure</h3>
+                        <p>Addressing liquidity constraints that throttle commerce in developing economies.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <div class="pillar-number">03</div>
+                        <h3>Employment Creation</h3>
+                        <p>Creating conditions where local entrepreneurship naturally emerges.</p>
+                    </div>
+                    <div class="pillar-card">
+                        <div class="pillar-number">04</div>
+                        <h3>Capital Development</h3>
+                        <p>Building sustainable financing mechanisms beyond initial deployment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Expected Outcomes -->
+        <section class="outcomes-section">
+            <div class="container">
+                <h2>Expected Outcomes</h2>
+                <div class="outcomes-grid">
+                    <div class="outcome-item">
+                        <h4>Stabilized Middle Class</h4>
+                        <p>Increased disposable income and economic resilience</p>
+                    </div>
+                    <div class="outcome-item">
+                        <h4>Higher Trade Volumes</h4>
+                        <p>Reduced transaction costs and improved liquidity</p>
+                    </div>
+                    <div class="outcome-item">
+                        <h4>Job Creation</h4>
+                        <p>Organic supply-side response to stimulated demand</p>
+                    </div>
+                    <div class="outcome-item">
+                        <h4>Capital Cycle</h4>
+                        <p>Self-sustaining local investment infrastructure</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Team Content -->
+    <main class="team-content" id="teamContent" style="display: none;">
+        <div class="team-header">
+            <h1>OUR TEAM</h1>
+        </div>
+
+        <div class="team-tabs-container">
+            <div class="team-tab active" onclick="setActiveTab(this)" data-filter="all">
+                TEAM
+            </div>
+            <div class="team-tab" onclick="setActiveTab(this)" data-filter="growth">
+                GROWTH
+            </div>
+            <div class="team-tab" onclick="setActiveTab(this)" data-filter="infrastructure">
+                INFRASTRUCTURE
+            </div>
+            <div class="team-tab" onclick="setActiveTab(this)" data-filter="operation">
+                OPERATION
+            </div>
+        </div>
+
+        <div class="team-grid">
+            <div class="team-card" data-category="growth">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=1000&fit=crop" alt="Portrait">
+                <div class="team-overlay">
+                    <div class="team-name">UWASE<br>AKAMANZI</div>
+                    <div class="team-stage">GROWTH INVESTMENTS</div>
+                </div>
+            </div>
+
+            <div class="team-card" data-category="growth">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&h=1000&fit=crop" alt="Portrait">
+                <div class="team-overlay">
+                    <div class="team-name">MUKIZA NKUSI</div>
+                    <div class="team-stage">GROWTH INVESTMENTS</div>
+                </div>
+            </div>
+
+            <div class="team-card" data-category="infrastructure">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&h=1000&fit=crop" alt="Portrait">
+                <div class="team-overlay">
+                    <div class="team-name">IMENA UWERA</div>
+                    <div class="team-stage">INFRASTRUCTURE</div>
+                </div>
+            </div>
+
+            <div class="team-card" data-category="infrastructure">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&h=1000&fit=crop" alt="Portrait">
+                <div class="team-overlay">
+                    <div class="team-name">NSHUTI<br>RUGAMBA</div>
+                    <div class="team-stage">INFRASTRUCTURE</div>
+                </div>
+            </div>
+
+            <div class="team-card" data-category="operation">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=1000&fit=crop" alt="Portrait">
+                <div class="team-overlay">
+                    <div class="team-name">KAYITESI UMUTONI</div>
+                    <div class="team-stage">OPERATIONS</div>
+                </div>
+            </div>
+
+            <div class="team-card" data-category="operation">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&h=1000&fit=crop" alt="Portrait">
+                <div class="team-overlay">
+                    <div class="team-name">HABIMANA MUGISHA</div>
+                    <div class="team-stage">OPERATIONS</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sidebar Actions -->
+    <aside class="sidebar">
+        <button class="sidebar-btn dashboard-btn" title="Regional Dashboard">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/>
+            </svg>
+        </button>
+        <button class="sidebar-btn newsletter-btn" title="Newsletter">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+        </button>
+    </aside>
+
+    <!-- Dashboard Modal -->
+    <div class="modal dashboard-modal" id="dashboardModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Great Lakes Region Dashboard</h3>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <!-- Demographics -->
+                <div class="dashboard-section">
+                    <h4>Demographics</h4>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value">180M</div>
+                            <div class="stat-desc">Total Population</div>
+                            <div class="stat-trend">+2.8% annually</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">32M</div>
+                            <div class="stat-desc">Middle Class (18%)</div>
+                            <div class="stat-trend">+4.2% growth</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">148M</div>
+                            <div class="stat-desc">Lower Class (82%)</div>
+                            <div class="stat-trend">-1.5% annually</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">65%</div>
+                            <div class="stat-desc">Urban Population</div>
+                            <div class="stat-trend">+3.1% annually</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Economic Indicators -->
+                <div class="dashboard-section">
+                    <h4>Economic Indicators</h4>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value">$120</div>
+                            <div class="stat-desc">Avg Monthly Income</div>
+                            <div class="stat-trend">+6.5% YoY</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">$85</div>
+                            <div class="stat-desc">Basic Goods Cost</div>
+                            <div class="stat-trend">+3.2% inflation</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">$35</div>
+                            <div class="stat-desc">Disposable Income</div>
+                            <div class="stat-trend">+12% potential</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">4.8%</div>
+                            <div class="stat-desc">GDP Growth</div>
+                            <div class="stat-trend">Above regional avg</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Financial Access -->
+                <div class="dashboard-section">
+                    <h4>Financial Infrastructure</h4>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-value">23%</div>
+                            <div class="stat-desc">Banked Population</div>
+                            <div class="stat-trend">+8% annually</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">45%</div>
+                            <div class="stat-desc">Mobile Money Users</div>
+                            <div class="stat-trend">+15% growth</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">12%</div>
+                            <div class="stat-desc">Credit Access</div>
+                            <div class="stat-trend">Major opportunity</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value">$2.1B</div>
+                            <div class="stat-desc">Trade Volume</div>
+                            <div class="stat-trend">+18% YoY</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Market Opportunities -->
+                <div class="dashboard-section">
+                    <h4>Investment Opportunities</h4>
+                    <div class="opportunity-grid">
+                        <div class="opportunity-card">
+                            <div class="opportunity-title">Food Security</div>
+                            <div class="opportunity-size">$850M Market</div>
+                            <div class="opportunity-desc">Agricultural supply chain optimization</div>
+                        </div>
+                        <div class="opportunity-card">
+                            <div class="opportunity-title">Financial Services</div>
+                            <div class="opportunity-size">$1.2B Market</div>
+                            <div class="opportunity-desc">Credit and payment infrastructure</div>
+                        </div>
+                        <div class="opportunity-card">
+                            <div class="opportunity-title">Trade Finance</div>
+                            <div class="opportunity-size">$650M Gap</div>
+                            <div class="opportunity-desc">Working capital solutions</div>
+                        </div>
+                        <div class="opportunity-card">
+                            <div class="opportunity-title">Retail Infrastructure</div>
+                            <div class="opportunity-size">$420M Market</div>
+                            <div class="opportunity-desc">Last-mile distribution networks</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Newsletter Modal -->
+    <div class="modal" id="newsletterModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Stay Updated</h3>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Get our latest research and investment insights.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="protocol.js"></script>
+</body>
+</html>
